@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah | 24 Anos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="loader-content">
+            <h2 class="loader-name">Parabéns Sarah</h2>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+    <canvas id="effectsCanvas"></canvas>
+
+    <header class="hero">
+        <h1 class="main-title">Sarah Paz Barros</h1>
+        <p class="subtitle">VINTE E QUATRO ANOS</p>
+    </header>
+
+    <main class="gallery-container">
+        <section class="photo-card" onclick="openPage(1)">
+            <div class="img-wrapper"><img src="img/foto1.jpg" alt="Foto 1"></div>
+            <div class="card-info"><h3>A ESSÊNCIA</h3><p>Ver detalhes →</p></div>
+        </section>
+        <section class="photo-card" onclick="openPage(2)">
+            <div class="img-wrapper"><img src="img/foto2.jpg" alt="Foto 2"></div>
+            <div class="card-info"><h3>O SORRISO</h3><p>Ver detalhes →</p></div>
+        </section>
+        <section class="photo-card" onclick="openPage(3)">
+            <div class="img-wrapper"><img src="img/foto3.jpg" alt="Foto 3"></div>
+            <div class="card-info"><h3>A JORNADA</h3><p>Ver detalhes →</p></div>
+        </section>
+        <section class="photo-card" onclick="openPage(4)">
+            <div class="img-wrapper"><img src="img/foto4.jpg" alt="Foto 4"></div>
+            <div class="card-info"><h3>O BRILHO</h3><p>Ver detalhes →</p></div>
+        </section>
+        <section class="photo-card" onclick="openPage(5)">
+            <div class="img-wrapper"><img src="img/foto5.jpg" alt="Foto 5"></div>
+            <div class="card-info"><h3>O FUTURO</h3><p>Ver detalhes →</p></div>
+        </section>
+    </main>
+
+    <div id="detail-overlay" class="overlay">
+        <div id="overlay-body" class="overlay-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
